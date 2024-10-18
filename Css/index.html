@@ -6,12 +6,15 @@
             /*Fonts */
             body{
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                width:50%;
+                margin-left: 30%;
             }
 
-            h1 , h2 ,h3{
+            h1 , h2 ,h3 , p {
                 font-family: 'Times New Roman', Times, serif;
                 text-align: center;
             }
+            
             a {
              color :#007bff;
              text-decoration:none;
@@ -25,17 +28,29 @@
            #navbar {
                 background-color: #007bff;
                 padding:10px;
-                text-align: center;
                 border-radius: 5px;
+                margin-top: 5px;
+            }
+            #navbar li{
+                /*to print column wise */
+                display: inline-block;
+                margin-right: 150px;
+                text-align: center;
             }
             
             .product{
                 border :1px solid #ccc;
                 border-radius: 10px;
                 padding:10px;
-                margin-bottom: 20px;
+                margin-bottom: 10px;
                 margin-top: 20px;
             }
+             .product img{
+                margin-left:300px
+             }
+             .product a{
+                 margin-left: 320px;
+             }
             .nav-link {
                 color:white;
                 text-decoration: none;
@@ -50,11 +65,12 @@
                 text-align: center;
                 padding: 20px;
             }
+           
             /* positioning */
             footer{
                 position: fixed;
                 bottom: 0;
-                width: 100%;
+                width: 50%;
                 background-color: #f8f9fa;
                 text-align: center;
                 padding: 10px 0;
@@ -81,6 +97,10 @@
                 transform: translateX(10px);
              }
                   /* flexbox */
+                  ul li{
+                    list-style-type: none;
+                  }
+                 
                   
 
         </style>
@@ -109,7 +129,7 @@
                 <img src="https://placehold.co/100x80" alt="Product 1">
                 <h2>Product 1</h2>
                 <p>Description of Product 1</p>
-                <a href="#">Buy Now</a>
+                <a class="nav-link" href="#">Buy Now</a>
             </div>
 
             <!-- Product 2 -->
@@ -117,7 +137,7 @@
                 <img src="https://placehold.co/100x80" alt="Product 1">
                 <h2>Product 2</h2>
                 <p>Description of Product 2</p>
-                <a href="#">Buy Now</a>
+                <a  href="#">Buy Now</a>
             </div>
 
             <!-- Product 3 -->
@@ -125,7 +145,7 @@
                 <img src="https://placehold.co/100x80" alt="Product 1">
                 <h2>Product 3</h2>
                 <p>Description of Product 3</p>
-                <a href="#">Buy Now</a>
+                <a  href="#">Buy Now</a>
             </div>
 
             <!-- Product 4 -->
@@ -133,7 +153,7 @@
                 <img src="https://placehold.co/100x80" alt="Product 1">
                 <h2>Product 4</h2>
                 <p>Description of Product 4</p>
-                <a href="#">Buy Now</a>
+                <a  href="#">Buy Now</a>
             </div>
 
             <!-- Product 5 -->
