@@ -1,0 +1,18 @@
+
+p
+{
+    padding: 10px;
+    float: left;
+}
+
+.para1
+{
+    background-color: cadetblue;
+}
+.para2
+{
+    background-color: burlywood;
+}
+.para3
+{
+    background-color: beige;
