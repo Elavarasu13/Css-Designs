@@ -1,0 +1,50 @@
+ 
+
+ .container
+{  
+    margin: 0;
+    padding: 0;
+} 
+ 
+
+ 
+.box
+{
+    border: 1px solid black;
+    background-color: dimgrey;   
+    margin-left: 20%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+
+.inputbox , .inputbox1
+{
+    margin-top: 10px;
+    padding: 5px;
+  
+}
+
+
+#input , #input1
+{
+    padding:5px;
+}
+
+
+.btn , .btn1
+{
+    margin: 10px;
+    width: fit-content;
+    margin-left: 30px;
+}
+
+
+#button , #button1
+{
+    background-color: cadetblue;
+    border-radius: 3px;
+}
+
